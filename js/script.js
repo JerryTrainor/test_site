@@ -1,3 +1,4 @@
+"use strict";
 function testWebP(callback) {
 
 	var webP = new Image();
@@ -16,7 +17,7 @@ testWebP(function (support) {
 	}
 });
 
-"use strict"
+
 
 document.addEventListener('DOMContentLoaded', function () {
 	const form = document.getElementById('form');
